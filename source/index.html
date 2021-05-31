@@ -8,26 +8,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
+<style>
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  body {
+    height: 700px;
+  }
+</style>
+
 <body>
-  <nav class="white" role="navigation">
-    <div> Boas vindas a minha coleção!</div>
-  </nav>
-
-  <style>
-    body::-webkit-scrollbar {
-      display: none;
-    }
-
-    body {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
-    }
-
-    body {
-      height: 700px;
-    }
-  </style>
-
+  <div class="section white">
+    <div class="center-align">
+      <h2 class="header">Boas vindas ao meu pequeno portfólio</h2>
+      <p class="grey-text text-darken-3 lighten-3">Com a idéia de retratar meu lar de maneiras diferentes do
+        convencional, gerou resultados agradáveis.</p>
+    </div>
+  </div>
 
   <div class="parallax-container">
     <div class="parallax"><img src="../assets/neon.png"></div>
@@ -35,16 +38,16 @@
   <div class="section white">
     <div class="row container">
       <h2 class="header">Lar</h2>
-      <p class="grey-text text-darken-3 lighten-3">Com a idéia de retratar meu lar de maneiras diferentes do
-        convencional, gerou resultados agradáveis.</p>
+      <p class="grey-text text-darken-3 lighten-3">Com a proposta de retratar meu lar de maneiras diferentes do
+        convencional.</p>
     </div>
   </div>
 
-  <a class="black-text" href="index.html">
+  <a class="black-text" href="lar.html">
     <div class="parallax-container">
       <div class="section no-pad-bot">
         <div class="center-align container">
-          <br><br><br><br><br>
+          <br><br><br><br><br><br>
           <h1>Coleção lar</h1>
         </div>
       </div>
@@ -52,26 +55,26 @@
     </div>
   </a>
 
-  <footer class="page-footer red accent-3">
+  <footer class="page-footer white">
     <div class="container">
       <div class="row">
         <div class="col l3 s12">
-          <h5 class="white-text">Contato</h5>
+          <h5 class="black-text">Contato</h5>
           <ul>
-            <li class="white-text">guilherme.devon@hotmail.com</li>
+            <li class="black-text">guilherme.devon@hotmail.com</li>
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">GitHub</h5>
+          <h5 class="black-text">GitHub</h5>
           <ul>
-            <li><a class="white-text" href="https://github.com/SWE3T">SWE3T</a></li>
+            <li><a class="black-text" href="https://github.com/SWE3T">SWE3T</a></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright white black-text">
       <div class="container">
-        Feito com carinho, utilizando <a class="brown-text text-lighten-3"
+        Feito com carinho, utilizando <a class="black-text"
           href="http://materializecss.com">Materialize</a>
       </div>
     </div>
