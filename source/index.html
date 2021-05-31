@@ -10,11 +10,20 @@
 
 <body>
   <nav class="white" role="navigation">
-   <div> Boas vindas a minha coleção!</div>
+    <div> Boas vindas a minha coleção!</div>
   </nav>
 
   <style>
-    .parallax-container {
+    body::-webkit-scrollbar {
+      display: none;
+    }
+
+    body {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    body {
       height: 700px;
     }
   </style>
@@ -25,30 +34,23 @@
   </div>
   <div class="section white">
     <div class="row container">
-      <h2 class="header">Parallax</h2>
-      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this
-        case, is moved at a different speed than the foreground content while scrolling.</p>
+      <h2 class="header">Lar</h2>
+      <p class="grey-text text-darken-3 lighten-3">Com a idéia de retratar meu lar de maneiras diferentes do
+        convencional, gerou resultados agradáveis.</p>
     </div>
   </div>
 
-  <div class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center red-text accent-3">Coleção "Lar"</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+  <a class="black-text" href="index.html">
+    <div class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="center-align container">
+          <br><br><br><br><br>
+          <h1>Coleção lar</h1>
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button"
-            class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
       </div>
+      <div class="parallax"><img src="../assets/vela.png" alt="Imagem de parallax"></div>
     </div>
-    <div class="parallax"><img src="../assets/vela.png" alt="Imagem de parallax"></div>
-  </div>
+  </a>
 
   <footer class="page-footer red accent-3">
     <div class="container">
